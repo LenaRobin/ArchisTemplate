@@ -1,0 +1,30 @@
+.projects-category {
+	.layer__feed {
+		grid-template-columns: 1fr;
+
+		.articles__list {
+			grid-template-columns: 2fr 2fr 2fr;
+			grid-column-gap: $space--s;
+		}
+	}
+
+
+
+	.category__intro {
+		margin-bottom: $space--l;
+		display: grid;
+		grid-template-columns: 4fr 2fr;
+		grid-column-gap: $space--s;
+
+		.top {
+			grid-column: 1 / 4;
+
+			.category__title {
+				margin-bottom: $space--s;
+			}
+		}
+
+		.category__description {
+		}
+	}
+}

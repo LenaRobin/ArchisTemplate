@@ -1,0 +1,17 @@
+.issue__carousel {
+	width: 100%;
+	overflow: hidden;
+
+	.issues {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+		.cover {
+
+			img {
+				height: auto;
+				width: 100%;
+			}
+		}
+	}
+}

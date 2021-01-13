@@ -1,0 +1,29 @@
+.button--primary {
+	border: $borders--thin $color--black;
+	text-align: center;
+	background-color: transparent;
+	padding: 0.5em;	
+	cursor: pointer;
+	text-transform: uppercase;
+	// border-radius: 3rem;
+
+	&:hover {
+		background-color: $color--black;
+		color: $color--white;
+	}
+}
+
+button.button--ui {
+	border: $borders--thin $color--black;
+	background-color: transparent;
+	@include type--small;
+	border-radius: $space--xs * 3;
+	padding: $space--xs / 2 $space--xs;
+	padding-bottom: $space--xs / 3;
+	text-transform: uppercase;
+
+	&:hover {
+		background-color: $color--black;
+		color: $color--white;
+	}
+}

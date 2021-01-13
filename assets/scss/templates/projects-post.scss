@@ -1,0 +1,10 @@
+.layer--projects--3 {
+	background-color: $color--projects--3;
+
+	.post__cover {
+		img {
+			@include image--interactive;
+		}		
+	}
+
+}
