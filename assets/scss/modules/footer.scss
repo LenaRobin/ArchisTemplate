@@ -15,7 +15,7 @@
 	display: grid;
 	grid-template-columns: 3fr 3fr;
 	grid-column-gap: $space--s;
-	margin-bottom: $space--xl;
+	margin-bottom: $space--l;
 
 	.footer__newsletter {
 		padding-top: $space--s;
@@ -35,7 +35,7 @@
 	display: grid;
 	grid-template-columns: 3fr 3fr;
 	grid-column-gap: $space--s;
-	margin-bottom: $space--xl / 1.25;
+	margin-bottom: $space--l * 1.5;
 	padding-top: $space--s;
 	border-top: $borders--thin $color--white--transp;
 

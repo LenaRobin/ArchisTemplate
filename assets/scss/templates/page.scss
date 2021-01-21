@@ -34,12 +34,16 @@ body {
 	    z-index: 9;
 	    margin-left: $space--xs * 3;
 	    position: relative;
-	    margin-top: calc(-100vh + #{$space--xs});
-	    transition: all 300ms;
+	    // margin-top: calc(-100vh + #{$space--xs});
+	    margin-top: -100vh;
+	    transition-property: filter, transform;
+	    transition-duration: 200ms, 300ms;
+	    transition-timing-function: cubic-bezier(0, 0, 0.21, 1), ease-out;
+	    transition-delay: 150ms, 0s;
 
 	    &.layers--move--hint {
-	    	margin-left: 50%;
-			filter: brightness(0.25);
+	    	transform: translate3d(33%, 0.5rem, 15rem);
+			filter: brightness(0.15);
 
 			img {
 				@include image--nb;
@@ -47,7 +51,7 @@ body {
 	    }
 
 		&.layers--move--aside {
-			margin-left: 50%;
+	    	transform: translate3d(33%, 0.5rem, 15rem);
 			cursor: pointer;
 
 			img {
@@ -55,12 +59,22 @@ body {
 			}
 
 			&.layers--move--hintback {
-				margin-left: calc(60% - 20%);
+	    		transform: translate3d(30%, 0.5rem, 0rem);
 			}
+		}
+
+		@include screen--tablet {
+			width: 100vw;
+			margin-left: 0;
 		}
 
 		.layer {
 			padding: $space--m;
+			padding-top: $space--s;
+
+			@include screen--tablet {
+				padding: $space--s;
+			}
 		}
 	}
 }
@@ -80,12 +94,17 @@ body {
 	}
 
 	&.layer__top--small {
+		padding-top: $space--xs;
 
 		h2 {
 			transition: all 300ms;
 		    transform-origin: top left;
 			@include p;
 		    transform-origin: top left;
+
+		    a {
+		    	@include type--univers;
+		    }
 		}
 
 		&:hover h2 {
@@ -99,7 +118,7 @@ body {
 
 .nav__bar {
 	border-top: $borders--thin;
-	border-bottom: $borders--thin;
+	// border-bottom: $borders--thin;
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;

@@ -117,126 +117,124 @@ textarea, select, input[type="date"], input[type=checkbox], input[type="datetime
   font-family: AktivGroteskCorp-Medium;
   src: url("fonts/AktivGroteskCorp-Medium.ttf") format("truetype");
   font-weight: 500; }
-/* line 57, scss/base/typography.scss */
+@font-face {
+  font-family: AktivGroteskCorp-Regular;
+  src: url("fonts/AktivGroteskCorp-Regular.ttf") format("truetype");
+  font-weight: 400; }
+/* line 63, scss/base/typography.scss */
 html {
   font-size: 14px; }
   @media screen and (min-width: 320px) {
-    /* line 57, scss/base/typography.scss */
+    /* line 63, scss/base/typography.scss */
     html {
       font-size: calc(14px + 3 * ((100vw - 320px) / 780)); } }
   @media screen and (min-width: 1100px) {
-    /* line 57, scss/base/typography.scss */
+    /* line 63, scss/base/typography.scss */
     html {
       font-size: 17px; } }
 
-/* line 79, scss/base/typography.scss */
+/* line 85, scss/base/typography.scss */
 body {
   font-family: 'Univers Next';
   line-height: 1.2 !important;
   letter-spacing: 0.005em; }
 
-/* line 107, scss/base/typography.scss */
+/* line 113, scss/base/typography.scss */
 h2 {
   font-size: 1.331rem;
   letter-spacing: -0.025em !important;
   line-height: 0.95 !important;
   font-family: 'Univers Next';
   font-weight: 600; }
-  /* line 57, scss/base/typography.scss */
+  /* line 63, scss/base/typography.scss */
   h2 {
     font-size: 22.54714px; }
     @media screen and (min-width: 320px) {
-      /* line 57, scss/base/typography.scss */
+      /* line 63, scss/base/typography.scss */
       h2 {
         font-size: calc(22.54714px + 119.2941237691 * ((100vw - 320px) / 780)); } }
     @media screen and (min-width: 1100px) {
-      /* line 57, scss/base/typography.scss */
+      /* line 63, scss/base/typography.scss */
       h2 {
         font-size: 141.8412637691px; } }
 
-/* line 125, scss/base/typography.scss */
+/* line 131, scss/base/typography.scss */
 h3 {
   font-size: 1.21rem;
   letter-spacing: -0.01em !important;
   font-family: 'Univers Next';
   font-weight: 600;
   line-height: 1.1em !important; }
-  /* line 57, scss/base/typography.scss */
+  /* line 63, scss/base/typography.scss */
   h3 {
     font-size: 18.634px; }
     @media screen and (min-width: 320px) {
-      /* line 57, scss/base/typography.scss */
+      /* line 63, scss/base/typography.scss */
       h3 {
         font-size: calc(18.634px + 44.8669435156 * ((100vw - 320px) / 780)); } }
     @media screen and (min-width: 1100px) {
-      /* line 57, scss/base/typography.scss */
+      /* line 63, scss/base/typography.scss */
       h3 {
         font-size: 63.5009435156px; } }
 
-/* line 143, scss/base/typography.scss */
+/* line 149, scss/base/typography.scss */
 h4 {
   font-size: 0.3025rem;
   letter-spacing: -0.005em !important;
   font-family: 'Univers Next';
   font-weight: 600;
   line-height: 1.1em; }
-  /* line 57, scss/base/typography.scss */
+  /* line 63, scss/base/typography.scss */
   h4 {
     font-size: 15.4px; }
     @media screen and (min-width: 320px) {
-      /* line 57, scss/base/typography.scss */
+      /* line 63, scss/base/typography.scss */
       h4 {
         font-size: calc(15.4px + 18.9987875 * ((100vw - 320px) / 780)); } }
     @media screen and (min-width: 1100px) {
-      /* line 57, scss/base/typography.scss */
+      /* line 63, scss/base/typography.scss */
       h4 {
         font-size: 34.3987875px; } }
 
-/* line 203, scss/base/typography.scss */
+/* line 209, scss/base/typography.scss */
 h1 {
   font-size: 1.331rem;
   letter-spacing: -0.045em !important;
   line-height: 0.95 !important;
   font-family: 'Univers Next';
   font-weight: 600; }
-  /* line 57, scss/base/typography.scss */
+  /* line 63, scss/base/typography.scss */
   h1 {
     font-size: 22.54714px; }
     @media screen and (min-width: 320px) {
-      /* line 57, scss/base/typography.scss */
+      /* line 63, scss/base/typography.scss */
       h1 {
         font-size: calc(22.54714px + 215.4912205298 * ((100vw - 320px) / 780)); } }
     @media screen and (min-width: 1100px) {
-      /* line 57, scss/base/typography.scss */
+      /* line 63, scss/base/typography.scss */
       h1 {
         font-size: 238.0383605298px; } }
 
-/* line 221, scss/base/typography.scss */
-.header--line {
-  border-top: 1px solid;
-  padding-top: 0.25em; }
-
-/* line 226, scss/base/typography.scss */
+/* line 229, scss/base/typography.scss */
 p, span, button {
-  line-height: 1.365em;
-  font-weight: 700; }
+  font-family: 'AktivGroteskCorp-Medium', sans-serif;
+  line-height: 1.365em; }
 
-/* line 243, scss/base/typography.scss */
+/* line 254, scss/base/typography.scss */
 p + p {
   margin-top: 0.8rem; }
 
-/* line 247, scss/base/typography.scss */
+/* line 258, scss/base/typography.scss */
 a {
   color: inherit;
   text-decoration: none;
-  line-height: 1.5;
-  font-weight: 700; }
+  line-height: 1.5; }
 
-/* line 254, scss/base/typography.scss */
+/* line 265, scss/base/typography.scss */
 ::-moz-selection {
   background-color: #ffffff; }
 
-/* line 258, scss/base/typography.scss */
+/* line 269, scss/base/typography.scss */
 ::selection {
   background-color: #ffffff; }
 
@@ -315,24 +313,24 @@ a {
   display: grid;
   grid-template-columns: 3fr 3fr;
   grid-column-gap: 1.75rem;
-  margin-bottom: 14rem; }
+  margin-bottom: 6rem; }
   /* line 20, scss/modules/footer.scss */
   .footer__follow .footer__newsletter {
     padding-top: 1.75rem;
-    border-top: 1px solid #ffffff9c; }
+    border-top: 1px solid #ffffff55; }
   /* line 25, scss/modules/footer.scss */
   .footer__follow .footer__socials {
     padding-top: 1.75rem;
-    border-top: 1px solid #ffffff9c; }
+    border-top: 1px solid #ffffff55; }
 
 /* line 33, scss/modules/footer.scss */
 .footer__secondary {
   display: grid;
   grid-template-columns: 3fr 3fr;
   grid-column-gap: 1.75rem;
-  margin-bottom: 11.2rem;
+  margin-bottom: 9rem;
   padding-top: 1.75rem;
-  border-top: 1px solid #ffffff9c; }
+  border-top: 1px solid #ffffff55; }
   /* line 44, scss/modules/footer.scss */
   .footer__secondary .col ul {
     display: flex; }
@@ -354,19 +352,48 @@ a {
       margin-right: 1.75rem; }
 
 /* line 1, scss/modules/buttons.scss */
+button {
+  outline: none; }
+
+/* line 5, scss/modules/buttons.scss */
 .button--primary {
   border: 1px solid #0e0404;
   text-align: center;
   background-color: transparent;
   padding: 0.5em;
+  border-radius: 2px;
   cursor: pointer;
-  text-transform: uppercase; }
-  /* line 10, scss/modules/buttons.scss */
+  text-transform: uppercase;
+  position: relative;
+  padding: 5px 5px;
+  outline: 0;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.08s ease-in;
+  -o-transition: 0.08s ease-in;
+  -ms-transition: 0.08s ease-in;
+  -moz-transition: 0.08s ease-in;
+  -webkit-transition: 0.08s ease-in; }
+  /* line 27, scss/modules/buttons.scss */
   .button--primary:hover {
     background-color: #0e0404;
     color: #ffffff; }
+  /* line 32, scss/modules/buttons.scss */
+  .button--primary:before {
+    content: "";
+    position: absolute;
+    background-color: #0e0404;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    -webkit-transition: top 0.09s ease-in; }
+  /* line 44, scss/modules/buttons.scss */
+  .button--primary:hover:before {
+    top: 0; }
 
-/* line 16, scss/modules/buttons.scss */
+/* line 52, scss/modules/buttons.scss */
 button.button--ui {
   border: 1px solid #0e0404;
   background-color: transparent;
@@ -374,8 +401,9 @@ button.button--ui {
   border-radius: 2.4rem;
   padding: 0.4rem 0.8rem;
   padding-bottom: 0.2666666667rem;
-  text-transform: uppercase; }
-  /* line 25, scss/modules/buttons.scss */
+  text-transform: uppercase;
+  transition: all 150ms; }
+  /* line 62, scss/modules/buttons.scss */
   button.button--ui:hover {
     background-color: #0e0404;
     color: #ffffff; }
@@ -425,29 +453,29 @@ img {
     .filter__bar .filter__actions .button {
       margin-left: 0.8rem; }
 
-/* line 30, scss/modules/filter.scss */
-.filter__panel {
-  position: relative; }
-  /* line 33, scss/modules/filter.scss */
-  .filter__panel.filter__panel--open {
-    display: block; }
+/* line 33, scss/modules/filter.scss */
+.nav__bar .nav__actions .button, .nav__bar .filter__actions .button, .filter__bar .nav__actions .button, .filter__bar .filter__actions .button {
+  margin-left: 0.8rem; }
   /* line 37, scss/modules/filter.scss */
-  .filter__panel .filter__group {
+  .nav__bar .nav__actions .button .filter__group, .nav__bar .filter__actions .button .filter__group, .filter__bar .nav__actions .button .filter__group, .filter__bar .filter__actions .button .filter__group {
     width: auto;
     z-index: 9999;
     position: absolute;
-    right: 0;
-    margin-top: 1.4rem; }
-    /* line 44, scss/modules/filter.scss */
-    .filter__panel .filter__group .filter__group__title {
+    margin-top: 1.4rem;
+    display: none; }
+    /* line 48, scss/modules/filter.scss */
+    .nav__bar .nav__actions .button .filter__group.filter__group--open, .nav__bar .filter__actions .button .filter__group.filter__group--open, .filter__bar .nav__actions .button .filter__group.filter__group--open, .filter__bar .filter__actions .button .filter__group.filter__group--open {
+      display: block; }
+    /* line 56, scss/modules/filter.scss */
+    .nav__bar .nav__actions .button .filter__group .filter__group__title, .nav__bar .filter__actions .button .filter__group .filter__group__title, .filter__bar .nav__actions .button .filter__group .filter__group__title, .filter__bar .filter__actions .button .filter__group .filter__group__title {
       font-size: 14px;
       margin-bottom: 0.8rem;
       cursor: default; }
 
-/* line 55, scss/modules/filter.scss */
+/* line 68, scss/modules/filter.scss */
 .filter__tag {
   cursor: pointer; }
-  /* line 69, scss/modules/filter.scss */
+  /* line 82, scss/modules/filter.scss */
   .filter__tag:hover {
     text-decoration: underline; }
 
@@ -488,13 +516,42 @@ img {
 /* line 28, scss/modules/layer-nav.scss */
 .background .layer__nav {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-direction: column;
   height: 100%;
+  width: 33%;
   opacity: 0.35;
   cursor: pointer;
   transition: opacity 300ms;
   padding-top: 1.75rem; }
+  /* line 43, scss/modules/layer-nav.scss */
+  .background .layer__nav .navigation ul li {
+    border-top: 1px solid;
+    border-color: #ffffff55;
+    padding: 0.4rem 0; }
+    /* line 50, scss/modules/layer-nav.scss */
+    .background .layer__nav .navigation ul li.link--section a:after {
+      background-color: transparent;
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      content: "";
+      border-radius: 100%;
+      margin-top: 3px;
+      margin-left: 0.5rem;
+      display: inline-block;
+      transform: scale(0.75);
+      opacity: 0.25;
+      transition: all 100ms; }
+    /* line 65, scss/modules/layer-nav.scss */
+    .background .layer__nav .navigation ul li.link--section:hover a:after {
+      background-color: green;
+      transform: scale(1);
+      opacity: 1; }
+
+/* line 81, scss/modules/layer-nav.scss */
+.home .page .background .layer__nav {
+  width: 100%; }
 
 /* line 1, scss/modules/post-headers.scss */
 .header--volume--1 {
@@ -601,62 +658,80 @@ body {
     z-index: 9;
     margin-left: 2.4rem;
     position: relative;
-    margin-top: calc(-100vh + 0.8rem);
-    transition: all 300ms; }
-    /* line 40, scss/templates/page.scss */
+    margin-top: -100vh;
+    transition-property: filter, transform;
+    transition-duration: 200ms, 300ms;
+    transition-timing-function: cubic-bezier(0, 0, 0.21, 1), ease-out;
+    transition-delay: 150ms, 0s; }
+    /* line 44, scss/templates/page.scss */
     .page .layers.layers--move--hint {
-      margin-left: 50%;
-      filter: brightness(0.25); }
-      /* line 44, scss/templates/page.scss */
+      transform: translate3d(33%, 0.5rem, 15rem);
+      filter: brightness(0.15); }
+      /* line 48, scss/templates/page.scss */
       .page .layers.layers--move--hint img {
         filter: grayscale(1) brightness(1.15);
         -webkit-filter: grayscale(1) brightness(1.15);
         mix-blend-mode: multiply; }
-    /* line 49, scss/templates/page.scss */
+    /* line 53, scss/templates/page.scss */
     .page .layers.layers--move--aside {
-      margin-left: 50%;
+      transform: translate3d(33%, 0.5rem, 15rem);
       cursor: pointer; }
-      /* line 53, scss/templates/page.scss */
+      /* line 57, scss/templates/page.scss */
       .page .layers.layers--move--aside img {
         filter: grayscale(1) brightness(1.15);
         -webkit-filter: grayscale(1) brightness(1.15);
         mix-blend-mode: multiply; }
-      /* line 57, scss/templates/page.scss */
+      /* line 61, scss/templates/page.scss */
       .page .layers.layers--move--aside.layers--move--hintback {
-        margin-left: calc(60% - 20%); }
-    /* line 62, scss/templates/page.scss */
+        transform: translate3d(30%, 0.5rem, 0rem); }
+    @media only screen and (max-width: 924px) {
+      /* line 32, scss/templates/page.scss */
+      .page .layers {
+        width: 100vw;
+        margin-left: 0; } }
+    /* line 71, scss/templates/page.scss */
     .page .layers .layer {
-      padding: 3.5rem; }
+      padding: 3.5rem;
+      padding-top: 1.75rem; }
+      @media only screen and (max-width: 924px) {
+        /* line 71, scss/templates/page.scss */
+        .page .layers .layer {
+          padding: 1.75rem; } }
 
-/* line 84, scss/templates/page.scss */
-.layer__top.layer__top--small h2 {
-  transition: all 300ms;
-  transform-origin: top left;
-  transform-origin: top left; }
-  /* line 57, scss/base/typography.scss */
+/* line 96, scss/templates/page.scss */
+.layer__top.layer__top--small {
+  padding-top: 0.8rem; }
+  /* line 99, scss/templates/page.scss */
   .layer__top.layer__top--small h2 {
-    font-size: 14px; }
-    @media screen and (min-width: 320px) {
-      /* line 57, scss/base/typography.scss */
-      .layer__top.layer__top--small h2 {
-        font-size: calc(14px + 3 * ((100vw - 320px) / 880)); } }
-    @media screen and (min-width: 1200px) {
-      /* line 57, scss/base/typography.scss */
-      .layer__top.layer__top--small h2 {
-        font-size: 17px; } }
-/* line 91, scss/templates/page.scss */
-.layer__top.layer__top--small:hover h2 {
-  transform: translateX(30px);
-  transform-origin: top left; }
+    transition: all 300ms;
+    transform-origin: top left;
+    transform-origin: top left; }
+    /* line 63, scss/base/typography.scss */
+    .layer__top.layer__top--small h2 {
+      font-size: 14px; }
+      @media screen and (min-width: 320px) {
+        /* line 63, scss/base/typography.scss */
+        .layer__top.layer__top--small h2 {
+          font-size: calc(14px + 3 * ((100vw - 320px) / 880)); } }
+      @media screen and (min-width: 1200px) {
+        /* line 63, scss/base/typography.scss */
+        .layer__top.layer__top--small h2 {
+          font-size: 17px; } }
+    /* line 105, scss/templates/page.scss */
+    .layer__top.layer__top--small h2 a {
+      font-family: 'Univers Next', sans-serif; }
+  /* line 110, scss/templates/page.scss */
+  .layer__top.layer__top--small:hover h2 {
+    transform: translateX(30px);
+    transform-origin: top left; }
 
-/* line 100, scss/templates/page.scss */
+/* line 119, scss/templates/page.scss */
 .nav__bar {
   border-top: 1px solid;
-  border-bottom: 1px solid;
   display: flex;
   justify-content: space-between;
   align-items: baseline; }
-  /* line 107, scss/templates/page.scss */
+  /* line 126, scss/templates/page.scss */
   .nav__bar .nav__actions {
     display: flex; }
 
@@ -734,37 +809,57 @@ body {
 
 /* line 2, scss/templates/home.scss */
 .home .page {
-  display: flex;
-  min-height: 100vh; }
-  /* line 6, scss/templates/home.scss */
+  grid-template-columns: 1fr 2fr;
+  display: grid;
+  grid-column-gap: 1.75rem; }
+  /* line 7, scss/templates/home.scss */
   .home .page .background {
-    width: 50%;
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    padding: 1em; }
-    /* line 13, scss/templates/home.scss */
-    .home .page .background .layer__archis {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column; }
+    width: auto;
+    padding-right: 0; }
+    /* line 11, scss/templates/home.scss */
+    .home .page .background .layer__nav {
+      opacity: 1; }
+      /* line 14, scss/templates/home.scss */
+      .home .page .background .layer__nav .navigation {
+        width: 100%; }
+  /* line 23, scss/templates/home.scss */
+  .home .page .home__layers .layer {
+    padding: 1.5em; }
   /* line 31, scss/templates/home.scss */
-  .home .page .home__layers {
-    width: 50%; }
+  .home .page .home__layers .layer--volume .layer__content .articles__list .article__thumbnail {
+    margin-bottom: 1.75rem; }
     /* line 34, scss/templates/home.scss */
-    .home .page .home__layers .layer {
-      padding: 1.5em; }
+    .home .page .home__layers .layer--volume .layer__content .articles__list .article__thumbnail .container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-column-gap: 1.75rem; }
+      /* line 39, scss/templates/home.scss */
+      .home .page .home__layers .layer--volume .layer__content .articles__list .article__thumbnail .container .text {
+        margin-left: 0; }
+      /* line 44, scss/templates/home.scss */
+      .home .page .home__layers .layer--volume .layer__content .articles__list .article__thumbnail .container .image__container .image {
+        width: 100%;
+        height: auto; }
+  /* line 57, scss/templates/home.scss */
+  .home .page .home__layers .layer--projects .layer__content .projects__list {
+    grid-template-columns: 1fr 1fr; }
+    /* line 60, scss/templates/home.scss */
+    .home .page .home__layers .layer--projects .layer__content .projects__list .project__thumbnail {
+      grid-column: auto !important; }
+      /* line 63, scss/templates/home.scss */
+      .home .page .home__layers .layer--projects .layer__content .projects__list .project__thumbnail .container {
+        flex-direction: column !important; }
 
-/* line 44, scss/templates/home.scss */
+/* line 77, scss/templates/home.scss */
 .home .home__layers button {
   width: 100%; }
-/* line 49, scss/templates/home.scss */
+/* line 82, scss/templates/home.scss */
 .home .home__layers .layer .layer__top {
   margin-bottom: 4.5em; }
-/* line 53, scss/templates/home.scss */
+/* line 86, scss/templates/home.scss */
 .home .home__layers .layer .layer__content {
   margin-bottom: 5.5em; }
-/* line 57, scss/templates/home.scss */
+/* line 90, scss/templates/home.scss */
 .home .home__layers .layer .layer__bottom {
   margin-bottom: 3em; }
 
@@ -907,92 +1002,75 @@ body {
   .volume-post .post__next .title {
     text-transform: uppercase; }
 
-/* line 84, scss/templates/volume-archive.scss */
+/* line 2, scss/templates/volume-archive.scss */
 .editions {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap: 1.75rem;
   grid-row-gap: 6rem; }
-  /* line 90, scss/templates/volume-archive.scss */
+  @media only screen and (min-width: 924px) and (max-width: 1084px) {
+    /* line 2, scss/templates/volume-archive.scss */
+    .editions {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr; } }
+  /* line 12, scss/templates/volume-archive.scss */
   .editions .item {
     position: relative; }
-    /* line 94, scss/templates/volume-archive.scss */
+    /* line 16, scss/templates/volume-archive.scss */
     .editions .item .number div {
       font-size: 0.36rem;
       letter-spacing: -0.005em !important;
       font-family: 'Univers Next';
       font-weight: 600;
       line-height: 1.1em; }
-      /* line 57, scss/base/typography.scss */
+      /* line 63, scss/base/typography.scss */
       .editions .item .number div {
         font-size: 16.8px; }
         @media screen and (min-width: 320px) {
-          /* line 57, scss/base/typography.scss */
+          /* line 63, scss/base/typography.scss */
           .editions .item .number div {
             font-size: calc(16.8px + 48.5184 * ((100vw - 320px) / 880)); } }
         @media screen and (min-width: 1200px) {
-          /* line 57, scss/base/typography.scss */
+          /* line 63, scss/base/typography.scss */
           .editions .item .number div {
             font-size: 65.3184px; } }
-    /* line 99, scss/templates/volume-archive.scss */
+    /* line 21, scss/templates/volume-archive.scss */
     .editions .item .info {
       font-size: 14px;
       border-top: 1px solid;
       padding-top: 0.25em;
       z-index: 99; }
-      /* line 105, scss/templates/volume-archive.scss */
+      /* line 27, scss/templates/volume-archive.scss */
       .editions .item .info div {
         border-bottom: 1px solid;
         padding-top: 0.25em; }
-    /* line 118, scss/templates/volume-archive.scss */
-    .editions .item a:hover .image {
-      position: absolute;
-      top: 70%;
-      left: 70%;
-      z-index: 999;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      bottom: -6rem;
-      height: 200px;
-      width: auto;
-      opacity: 1;
-      transition: all 300ms; }
-      /* line 132, scss/templates/volume-archive.scss */
-      .editions .item a:hover .image img {
-        z-index: 999;
-        height: 200px;
-        width: auto; }
-  /* line 141, scss/templates/volume-archive.scss */
+  /* line 63, scss/templates/volume-archive.scss */
   .editions .item:first-of-type {
-    grid-column: 1 / 3;
-    margin-bottom: 3.5rem; }
-    /* line 147, scss/templates/volume-archive.scss */
+    grid-column: 1 / 3; }
+    /* line 68, scss/templates/volume-archive.scss */
     .editions .item:first-of-type .number div {
       font-size: 1.44rem;
       letter-spacing: -0.01em !important;
       font-family: 'Univers Next';
       font-weight: 600;
       line-height: 1.1em !important; }
-      /* line 57, scss/base/typography.scss */
+      /* line 63, scss/base/typography.scss */
       .editions .item:first-of-type .number div {
         font-size: 24.192px; }
         @media screen and (min-width: 320px) {
-          /* line 57, scss/base/typography.scss */
+          /* line 63, scss/base/typography.scss */
           .editions .item:first-of-type .number div {
             font-size: calc(24.192px + 152.16768 * ((100vw - 320px) / 880)); } }
         @media screen and (min-width: 1200px) {
-          /* line 57, scss/base/typography.scss */
+          /* line 63, scss/base/typography.scss */
           .editions .item:first-of-type .number div {
             font-size: 176.35968px; } }
-    /* line 152, scss/templates/volume-archive.scss */
+    /* line 73, scss/templates/volume-archive.scss */
     .editions .item:first-of-type .info {
       font-size: 14px; }
-  /* line 158, scss/templates/volume-archive.scss */
+  /* line 79, scss/templates/volume-archive.scss */
   .editions .item:nth-of-type(21) {
-    grid-column: 4 / 6;
-    margin-bottom: 3.5rem; }
-    /* line 163, scss/templates/volume-archive.scss */
+    grid-column: 4 / 6; }
+    /* line 83, scss/templates/volume-archive.scss */
     .editions .item:nth-of-type(21) .number div {
       font-size: 1.44rem;
       letter-spacing: -0.01em !important;
@@ -1000,45 +1078,50 @@ body {
       font-weight: 600;
       line-height: 1.1em !important;
       line-height: 0.85em !important; }
-      /* line 57, scss/base/typography.scss */
+      /* line 63, scss/base/typography.scss */
       .editions .item:nth-of-type(21) .number div {
         font-size: 24.192px; }
         @media screen and (min-width: 320px) {
-          /* line 57, scss/base/typography.scss */
+          /* line 63, scss/base/typography.scss */
           .editions .item:nth-of-type(21) .number div {
             font-size: calc(24.192px + 152.16768 * ((100vw - 320px) / 880)); } }
         @media screen and (min-width: 1200px) {
-          /* line 57, scss/base/typography.scss */
+          /* line 63, scss/base/typography.scss */
           .editions .item:nth-of-type(21) .number div {
             font-size: 176.35968px; } }
-    /* line 169, scss/templates/volume-archive.scss */
+    /* line 89, scss/templates/volume-archive.scss */
     .editions .item:nth-of-type(21) .info {
       font-size: 14px; }
-  /* line 175, scss/templates/volume-archive.scss */
+  /* line 95, scss/templates/volume-archive.scss */
   .editions .item:first-of-type {
     grid-column: 1 / 3; }
-    /* line 179, scss/templates/volume-archive.scss */
+    /* line 99, scss/templates/volume-archive.scss */
     .editions .item:first-of-type .number div {
+      margin-top: 0.125em;
       font-size: 1.44rem;
       letter-spacing: -0.01em !important;
       font-family: 'Univers Next';
       font-weight: 600;
       line-height: 1.1em !important;
       line-height: 0.85em !important; }
-      /* line 57, scss/base/typography.scss */
+      /* line 63, scss/base/typography.scss */
       .editions .item:first-of-type .number div {
         font-size: 24.192px; }
         @media screen and (min-width: 320px) {
-          /* line 57, scss/base/typography.scss */
+          /* line 63, scss/base/typography.scss */
           .editions .item:first-of-type .number div {
             font-size: calc(24.192px + 152.16768 * ((100vw - 320px) / 880)); } }
         @media screen and (min-width: 1200px) {
-          /* line 57, scss/base/typography.scss */
+          /* line 63, scss/base/typography.scss */
           .editions .item:first-of-type .number div {
             font-size: 176.35968px; } }
-    /* line 185, scss/templates/volume-archive.scss */
+    /* line 106, scss/templates/volume-archive.scss */
     .editions .item:first-of-type .info {
       font-size: 14px; }
+
+/* line 115, scss/templates/volume-archive.scss */
+.volume-archive .layer__title {
+  margin-bottom: 3.5rem; }
 
 /* line 2, scss/templates/volume-category.scss */
 .projects-category .layer__feed {
@@ -1060,48 +1143,51 @@ body {
     .projects-category .category__intro .top .category__title {
       margin-bottom: 1.75rem; }
 
-/* line 2, scss/templates/volume-issue.scss */
+/* line 3, scss/templates/volume-issue.scss */
+.volume-issue .layer__title {
+  margin-bottom: 3.5rem; }
+/* line 7, scss/templates/volume-issue.scss */
 .volume-issue .layer__feed {
   grid-template-columns: 4fr 2fr;
   grid-column-gap: 1.75rem; }
-  /* line 8, scss/templates/volume-issue.scss */
+  /* line 15, scss/templates/volume-issue.scss */
   .volume-issue .layer__feed .articles__list {
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-column-gap: 1.75rem;
     grid-row-gap: 6rem; }
-    /* line 16, scss/templates/volume-issue.scss */
+    /* line 23, scss/templates/volume-issue.scss */
     .volume-issue .layer__feed .articles__list .article__thumbnail .container {
       display: flex;
       flex-direction: column; }
-    /* line 29, scss/templates/volume-issue.scss */
+    /* line 36, scss/templates/volume-issue.scss */
     .volume-issue .layer__feed .articles__list .article__thumbnail.article__thumbnail--editorial {
       grid-column: 1 / 3;
       grid-row: 1; }
-      /* line 33, scss/templates/volume-issue.scss */
+      /* line 40, scss/templates/volume-issue.scss */
       .volume-issue .layer__feed .articles__list .article__thumbnail.article__thumbnail--editorial img {
         display: block; }
-    /* line 40, scss/templates/volume-issue.scss */
+    /* line 47, scss/templates/volume-issue.scss */
     .volume-issue .layer__feed .articles__list .article__thumbnail:nth-of-type(2) .container {
       flex-direction: column-reverse; }
-/* line 55, scss/templates/volume-issue.scss */
+/* line 62, scss/templates/volume-issue.scss */
 .volume-issue .category__intro {
   margin-bottom: 6rem;
   display: grid;
   grid-template-columns: 4fr 2fr;
   grid-column-gap: 1.75rem; }
-  /* line 62, scss/templates/volume-issue.scss */
+  /* line 69, scss/templates/volume-issue.scss */
   .volume-issue .category__intro .text .category__title {
     margin-bottom: 1.75rem; }
 
-/* line 81, scss/templates/volume-issue.scss */
+/* line 88, scss/templates/volume-issue.scss */
 .issue__info {
   margin-top: 6rem; }
-  /* line 84, scss/templates/volume-issue.scss */
+  /* line 91, scss/templates/volume-issue.scss */
   .issue__info .issue__info__toc {
     border-top: 1px solid;
     padding-top: 0.8rem; }
-    /* line 89, scss/templates/volume-issue.scss */
+    /* line 96, scss/templates/volume-issue.scss */
     .issue__info .issue__info__toc .toc__list .toc__item {
       display: grid;
       grid-template-columns: 2fr 2fr 2fr;
@@ -1131,17 +1217,21 @@ body {
   padding-top: 0.8rem;
   border-top: 1px solid; }
 
-/* line 34, scss/templates/events.scss */
+/* line 30, scss/templates/events.scss */
+.nav--events .nav__bar {
+  border-bottom: 0; }
+
+/* line 40, scss/templates/events.scss */
 .events__list .events__thumbnail--detailed {
   border-top: 1px solid;
   padding-top: 0.8rem;
   margin-bottom: 3.5rem; }
-  /* line 40, scss/templates/events.scss */
+  /* line 46, scss/templates/events.scss */
   .events__list .events__thumbnail--detailed .container {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
     grid-column-gap: 1.75rem; }
-    /* line 49, scss/templates/events.scss */
+    /* line 55, scss/templates/events.scss */
     .events__list .events__thumbnail--detailed .container .place {
       margin-top: 0.8rem; }
 
@@ -1233,6 +1323,13 @@ body {
       -webkit-filter: grayscale(1) brightness(1.15);
       mix-blend-mode: multiply; }
 
+/* line 93, scss/templates/events-posts.scss */
+.events-post .nav__bar {
+  border-bottom: 0; }
+/* line 97, scss/templates/events-posts.scss */
+.events-post .layer__content {
+  margin-top: 3.5rem; }
+
 /* line 1, scss/templates/projects.scss */
 .layer--projects {
   background-color: #3838ff;
@@ -1251,6 +1348,10 @@ body {
   .layer--projects .project__thumbnail .text p {
     width: 90%;
     max-width: 60ch; }
+
+/* line 36, scss/templates/projects.scss */
+.nav--projects .nav__bar {
+  border-bottom: 0; }
 
 /* line 5, scss/templates/projects-category.scss */
 .layer--projects .project__info .split {
@@ -1288,7 +1389,7 @@ body {
 
 /* line 1, scss/templates/projects-post.scss */
 .layer--projects--3 {
-  background-color: #A3D3FF; }
+  background-color: #5454fd; }
   /* line 5, scss/templates/projects-post.scss */
   .layer--projects--3 .post__cover img {
     filter: grayscale(1) brightness(1.15);
@@ -1300,41 +1401,70 @@ body {
       -webkit-filter: none;
       mix-blend-mode: normal; }
 
+/* line 15, scss/templates/projects-post.scss */
+.projects-post .nav__bar {
+  border-bottom: 0; }
+/* line 19, scss/templates/projects-post.scss */
+.projects-post .layer__content {
+  margin-top: 3.5rem; }
+
 /* line 3, scss/templates/archis-about.scss */
-.about .page .layer__archis {
-  margin-left: 33vw; }
-  /* line 7, scss/templates/archis-about.scss */
-  .about .page .layer__archis .archis__about .introduction {
+.about img {
+  mix-blend-mode: normal !important; }
+/* line 11, scss/templates/archis-about.scss */
+.about .page {
+  grid-template-columns: 1fr 2fr;
+  display: grid;
+  grid-column-gap: 1.75rem; }
+  /* line 16, scss/templates/archis-about.scss */
+  .about .page .background {
+    width: auto;
+    padding-right: 0; }
+    /* line 20, scss/templates/archis-about.scss */
+    .about .page .background .layer__archis {
+      width: 100%; }
+    /* line 24, scss/templates/archis-about.scss */
+    .about .page .background .layer__nav {
+      opacity: 1; }
+      /* line 27, scss/templates/archis-about.scss */
+      .about .page .background .layer__nav .navigation {
+        width: 100%; }
+  /* line 38, scss/templates/archis-about.scss */
+  .about .page .content__archis .archis__about .introduction {
     padding-right: 6rem;
     margin-top: 6rem;
     margin-bottom: 6rem; }
-  /* line 13, scss/templates/archis-about.scss */
-  .about .page .layer__archis .archis__about .description {
+  /* line 44, scss/templates/archis-about.scss */
+  .about .page .content__archis .archis__about .header--line {
+    border-top: 1px solid #ffffff55;
+    padding-top: 0.25em; }
+  /* line 50, scss/templates/archis-about.scss */
+  .about .page .content__archis .archis__about .description {
     padding-right: 14rem;
-    margin-bottom: 14rem;
+    margin-bottom: 3.5rem;
     margin-top: 3.5rem; }
-  /* line 19, scss/templates/archis-about.scss */
-  .about .page .layer__archis .archis__about .team {
+  /* line 56, scss/templates/archis-about.scss */
+  .about .page .content__archis .archis__about .team {
     padding-right: 1.75rem;
     margin-bottom: 6rem; }
-    /* line 23, scss/templates/archis-about.scss */
-    .about .page .layer__archis .archis__about .team .team__members {
+    /* line 60, scss/templates/archis-about.scss */
+    .about .page .content__archis .archis__about .team .team__members {
       margin-top: 1.75rem;
       margin-bottom: 3.5rem; }
-    /* line 28, scss/templates/archis-about.scss */
-    .about .page .layer__archis .archis__about .team .team__extra {
+    /* line 65, scss/templates/archis-about.scss */
+    .about .page .content__archis .archis__about .team .team__extra {
       margin: 1.75rem 0; }
-  /* line 33, scss/templates/archis-about.scss */
-  .about .page .layer__archis .archis__about .contributors {
+  /* line 70, scss/templates/archis-about.scss */
+  .about .page .content__archis .archis__about .contributors {
     padding-right: 6rem;
     margin-top: 6rem; }
-    /* line 37, scss/templates/archis-about.scss */
-    .about .page .layer__archis .archis__about .contributors .contributors__list {
+    /* line 74, scss/templates/archis-about.scss */
+    .about .page .content__archis .archis__about .contributors .contributors__list {
       margin-top: 1.75rem; }
 
 /* line 1, scss/templates/new.scss */
 .layer--new {
-  background-color: #FAFF00;
+  background-color: #fff700;
   color: #0e0404; }
 
 /*# sourceMappingURL=style.css.map */

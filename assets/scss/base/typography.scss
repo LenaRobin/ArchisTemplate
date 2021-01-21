@@ -40,6 +40,12 @@
   font-weight: 500; 
 }
 
+@font-face {
+  font-family: AktivGroteskCorp-Regular;
+  src: url('fonts/AktivGroteskCorp-Regular.ttf') format('truetype');
+  font-weight: 400; 
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
 
 
@@ -218,18 +224,23 @@ h1 {
   font-weight: 600;
 }
 
-.header--line {
-  border-top: 1px solid;
-  padding-top: $space--xxs;
-}
+
 
 p, span, button {
     // font-family:'Ultimate';
     // font-family: 'Open Sans', sans-serif;   
-    // font-family: 'AktivGroteskCorp-Medium', sans-serif;  
+    font-family: 'AktivGroteskCorp-Medium', sans-serif;  
     // font-family: "Helvetica";  
     line-height: 1.365em;
-    font-weight: 700; 
+    // font-weight: 700; 
+}
+
+@mixin type--aktiv {
+  font-family: 'AktivGroteskCorp-Medium', sans-serif;  
+}
+
+@mixin type--univers {
+  font-family: 'Univers Next', sans-serif;  
 }
 
 @mixin p {
@@ -248,7 +259,7 @@ a {
   color: inherit;
   text-decoration: none;
   line-height: 1.5;
-  font-weight: 700; 
+  // font-weight: 700; 
 }
 
 ::-moz-selection {

@@ -1,7 +1,14 @@
 .volume-issue {
+
+	.layer__title {
+		margin-bottom: $space--m;
+	}
+
 	.layer__feed {
 		grid-template-columns: 4fr 2fr;
 		grid-column-gap: $space--s;
+
+
 
 
 		// Articles list
